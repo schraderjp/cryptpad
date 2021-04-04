@@ -80,7 +80,7 @@ module.exports = {
  *  all addresses, including IPv6, set this to '::'.
  *
  */
-    httpAddress: '::',
+    //httpAddress: '::',
 
 /*  httpPort specifies on which port the nodejs server should listen.
  *  By default it will serve content over port 3000, which is suitable
