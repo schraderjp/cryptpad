@@ -54,7 +54,7 @@ module.exports = {
  *  and it may have unintended consequences in practice.
  *
  */
-    httpUnsafeOrigin: 'http://localhost:3000',
+    //httpUnsafeOrigin: 'http://localhost:3000',
 
 /*  httpSafeOrigin is the URL that is used for the 'sandbox' described above.
  *  If you're testing or developing with CryptPad on your local machine then
@@ -80,7 +80,7 @@ module.exports = {
  *  all addresses, including IPv6, set this to '::'.
  *
  */
-    //httpAddress: '::',
+    httpAddress: '::',
 
 /*  httpPort specifies on which port the nodejs server should listen.
  *  By default it will serve content over port 3000, which is suitable
@@ -150,7 +150,7 @@ module.exports = {
     /*  CryptPad will display a point of contact for your instance on its contact page
      *  (/contact.html) if you provide it below.
      */
-    adminEmail: 'i.did.not.read.my.config@cryptpad.fr',
+    adminEmail: 'schraderjp@gmail.com',
 
     /*
      *  By default, CryptPad contacts one of our servers once a day.
